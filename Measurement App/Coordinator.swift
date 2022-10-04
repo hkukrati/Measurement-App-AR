@@ -97,7 +97,8 @@ class Coordinator: NSObject, ARCoachingOverlayViewDelegate {
         
         arView?.scene.anchors.removeAll()
         measurementButton.setTitle("0 m", for: .normal)
-        measurementButton.backgroundColor = UIColor.lightGray
+        measurementButton.setTitleColor(UIColor.white, for: .normal)
+        
     }
     
     public func coachingOverlayViewDidDeactivate(_ coachingOverlayView: ARCoachingOverlayView) {

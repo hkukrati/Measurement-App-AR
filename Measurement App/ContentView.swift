@@ -24,7 +24,7 @@ struct ARViewContainer: UIViewRepresentable {
         // Configure the Coordinator to handle gestures/tap events
         arView.addGestureRecognizer(UITapGestureRecognizer(target: context.coordinator, action: #selector(Coordinator.handleTap)))
         
-        // Add AR coaching to guide the user in detecting a horizontal plane. Coordinator acts as the delegate for
+        // Add AR coaching to guide the user in detecting a horizontal plane. Coordinator acts as the delegate
         let coachingView = ARCoachingOverlayView()
         coachingView.goal = .horizontalPlane
         coachingView.session = arView.session
