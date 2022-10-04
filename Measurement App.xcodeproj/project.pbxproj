@@ -12,6 +12,7 @@
 		2A6AC3D028D8ECDD001F4532 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2A6AC3CF28D8ECDD001F4532 /* Experience.rcproject */; };
 		2A6AC3D228D8ECDD001F4532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A6AC3D128D8ECDD001F4532 /* Assets.xcassets */; };
 		2A6AC3D528D8ECDD001F4532 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A6AC3D428D8ECDD001F4532 /* Preview Assets.xcassets */; };
+		2A6AC3DE28D915B9001F4532 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6AC3DD28D915B9001F4532 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2A6AC3CF28D8ECDD001F4532 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		2A6AC3D128D8ECDD001F4532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A6AC3D428D8ECDD001F4532 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A6AC3DD28D915B9001F4532 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		2A6AC3CA28D8ECDD001F4532 /* Measurement App */ = {
 			isa = PBXGroup;
 			children = (
+				2A6AC3DD28D915B9001F4532 /* Coordinator.swift */,
 				2A6AC3CB28D8ECDD001F4532 /* AppDelegate.swift */,
 				2A6AC3CD28D8ECDD001F4532 /* ContentView.swift */,
 				2A6AC3CF28D8ECDD001F4532 /* Experience.rcproject */,
@@ -142,6 +145,7 @@
 			files = (
 				2A6AC3CE28D8ECDD001F4532 /* ContentView.swift in Sources */,
 				2A6AC3CC28D8ECDD001F4532 /* AppDelegate.swift in Sources */,
+				2A6AC3DE28D915B9001F4532 /* Coordinator.swift in Sources */,
 				2A6AC3D028D8ECDD001F4532 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,7 +203,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -253,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -281,12 +285,13 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.harshi.Measurement-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harshi-k";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,12 +317,13 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.harshi.Measurement-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harshi-k";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
